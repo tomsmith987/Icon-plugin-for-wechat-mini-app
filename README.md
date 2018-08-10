@@ -65,7 +65,7 @@ rotate和flip属性：图标旋转与翻转
 <hand-icon type="hand-o-up" flip="vertical"></hand-icon>
 ```
 图标嵌套使用：其中inverse是颜色翻转属性
-```html
+```
 /*wxml*/
 <view>
         <hand-icon stack="stack">
