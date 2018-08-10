@@ -23,11 +23,11 @@
 #### 代码演示：
 基础用法
 type属性：选择图标基本样式
-```
+```html
 <hand-icon type="cc-amex"></hand-icon>
 ```
 size属性：图标大小调节
-```
+```html
 <hand-icon type="cc-amex" size="lg"></hand-icon>
 <hand-icon type="cc-amex" size="2x"></hand-icon>
 <hand-icon type="cc-amex" size="3x"></hand-icon>
@@ -35,11 +35,13 @@ size属性：图标大小调节
 <hand-icon type="cc-amex" size="5x"></hand-icon>
 ```
 class属性：用户自定义class选择器
-```
+```html
 /*wxml*/
 <hand-icon type="hand-o-up" class="my-class"></hand-icon>
+```
 
 
+```css
 /*wxss*/
 .my-class{
     color:red;
@@ -48,13 +50,13 @@ class属性：用户自定义class选择器
 
 ```
 spin属性：是任意图标旋转
-```
+```html
 <hand-icon type="circle-o-notch"  spin="{{true}}"></hand-icon>  
 <hand-icon type="refresh"  spin="{{true}}"></hand-icon>  
 <hand-icon type="spinner"  spin="{{true}}"></hand-icon>
 ```
 rotate和flip属性：图标旋转与翻转
-```
+```html
 <hand-icon type="hand-o-up"></hand-icon>
 <hand-icon type="hand-o-up" rotate="90"></hand-icon>
 <hand-icon type="hand-o-up" rotate="180"></hand-icon>
@@ -63,7 +65,7 @@ rotate和flip属性：图标旋转与翻转
 <hand-icon type="hand-o-up" flip="vertical"></hand-icon>
 ```
 图标嵌套使用：其中inverse是颜色翻转属性
-```
+```html
 /*wxml*/
 <view>
         <hand-icon stack="stack">
@@ -85,8 +87,9 @@ rotate和flip属性：图标旋转与翻转
             <hand-icon type="terminal " slot="in" stack="stack-1x" inverse="{{true}}"></hand-icon>
         </hand-icon>
     </view>
+</view>
 ```
-```
+```css
 /*wxss*/
 .red-color {
     color:#a94442;
