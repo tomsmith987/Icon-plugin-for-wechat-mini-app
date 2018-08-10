@@ -96,7 +96,7 @@ rotate和flip属性：图标旋转与翻转
 ![](https://github.com/tomsmith987/README_IMAGE/blob/master/icon/icon.png)
 
 
-感谢大家使用本插件，欢迎大家也是用随手团队开发的**随手练英语小程序**，锻炼的的英语能力，从而升职加薪，走上迎娶白富美的道路。  
+感谢大家使用本插件，欢迎大家也使用随手团队开发的**随手练英语小程序**，利用零碎时间提升英语水平，从而升职加薪，走上迎娶白富美的道路。  
 ![](https://github.com/tomsmith987/README_IMAGE/blob/master/icon/hand_english_qrcode.jpg)
 
 
