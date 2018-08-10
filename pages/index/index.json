@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "hand-icon": "plugin://myPlugin/hand"
+    },
+    "navigationBarTitleText": "随手图标字体插件样例"
+}

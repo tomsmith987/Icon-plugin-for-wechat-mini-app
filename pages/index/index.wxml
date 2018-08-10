@@ -1,0 +1,109 @@
+<view>size属性：图标尺寸</view>
+<view>
+    <hand-icon type="cc-amex" size="lg"></hand-icon> lg
+</view>
+<view>
+    <hand-icon type="cc-amex" size="2x"></hand-icon> 2x
+</view>
+<view>
+    <hand-icon type="cc-amex" size="3x"></hand-icon> 3x
+</view>
+<view>
+    <hand-icon type="cc-amex" size="4x"></hand-icon> 4x
+</view>
+<view>
+    <hand-icon type="cc-amex" size="5x"></hand-icon> 5x
+</view>
+<view class='title'>type属性：图标样式（部分示例）</view>
+
+<view>
+    <hand-icon type="arrows-alt"></hand-icon>
+</view>
+<view>
+    <hand-icon type="expand"></hand-icon>
+</view>
+<view>
+    <hand-icon type="arrows-alt"></hand-icon>
+</view>
+<view>
+    <hand-icon type="backward"></hand-icon>
+</view>
+<view>
+    <hand-icon type="stop"></hand-icon>
+</view>
+<view>
+    <hand-icon type="hand-o-up"></hand-icon>
+</view>
+
+<view class='title'>class属性：用户自定义</view>
+<view>
+    <hand-icon type="hand-o-up" class="my-class"></hand-icon>
+</view>
+
+
+<view class='title'>spin属性：使任意图标旋转</view>
+
+<view>
+    <hand-icon type="circle-o-notch"  spin="{{true}}"></hand-icon>  
+    <hand-icon type="refresh"  spin="{{true}}"></hand-icon>  
+    <hand-icon type="spinner"  spin="{{true}}"></hand-icon>
+</view>
+
+<view class='title'>rotate和flip属性：旋转与翻转</view>
+
+<view>
+    <view>
+        normal: <hand-icon type="hand-o-up"></hand-icon>
+    </view>
+
+    <view>
+        rotate-90: <hand-icon type="hand-o-up" rotate="90"></hand-icon>
+    </view>
+
+    <view>
+        rotate-180: <hand-icon type="hand-o-up" rotate="180"></hand-icon>
+    </view>
+
+    <view>
+        rotate-270: <hand-icon type="hand-o-up" rotate="270"></hand-icon>
+    </view>
+    <view>
+        horizontal: <hand-icon type="hand-o-up" flip="horizontal"></hand-icon>
+    </view>
+    <view>
+        vertical: <hand-icon type="hand-o-up" flip="vertical"></hand-icon>
+    </view>
+</view>
+
+
+
+<view class='title'>图标嵌套使用案例:</view>
+
+    <view>
+        <hand-icon stack="stack">
+            <hand-icon type="square-o" slot="out" stack="stack-2x"></hand-icon>
+            <hand-icon type="twitter" slot="in" stack="stack-1x"></hand-icon>
+        </hand-icon>
+    </view>
+
+    <view>
+        <hand-icon stack="stack">
+            <hand-icon type="circle" slot="out" stack="stack-2x"></hand-icon>
+            <hand-icon type="flag" slot="in" stack="stack-1x" inverse="{{true}}"></hand-icon>
+        </hand-icon>
+    </view>
+
+    <view>
+        <hand-icon stack="stack">
+            <hand-icon type="square" slot="out" stack="stack-2x"></hand-icon>
+            <hand-icon type="terminal " slot="in" stack="stack-1x" inverse="{{true}}"></hand-icon>
+        </hand-icon>
+    </view>
+
+
+    <view>
+        <hand-icon stack="stack">
+            <hand-icon type="ban" slot="out" stack="stack-2x" class="red-color"></hand-icon>
+            <hand-icon type="camera" slot="in" stack="stack-1x"></hand-icon>
+        </hand-icon>
+    </view>
